@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React app that serves as the client for the API available here: https://github.com/nel-sam/CarpulApi
 
 ## Available Scripts
 
