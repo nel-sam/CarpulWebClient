@@ -1,68 +1,29 @@
 A React app that serves as the client for the API available here: https://github.com/nel-sam/CarpulApi
+This
 
-## Available Scripts
+<img src="https://raw.githubusercontent.com/nel-sam/CarpulWebClient/master/screenshots/readme1.png" width="400px">
 
-In the project directory, you can run:
+# Main features implemented
+New user registration
+User authentication using JSON Web Tokens
+User Profile page with the following features
+A summary of the user info including address, email, and name
+A list of carpools that belong to the user (that the user has created)
+A list of incoming requests for the carpool owned by the user
+A list of outgoing requests that the user has made for other peoples’ carpools
+A map displaying the users route
+Buttons for accepting and rejecting incoming requests
+A button to delete the carpool owned by the user
+A carpool search page for searching by owner name or zip code
+A page for creating a new carpool using either an existing company campus or by creating a new one on the fly
+User logout that clears all user data
 
-### `npm start`
+## What I learned
+1. Setting up and Using Azure Application insights within a Javascript app
+2. React fundamentals; creating components, setting state, passing data into components, etc...
+3. Using Bing Maps API to display maps in a web client. Bing maps, unlike Google Maps, allows you to use it behind an auth wall. Thank you Microsoft for that allowing that and thanks to iniamudhan for the React BingMaps component library (https://github.com/iniamudhan/react-bingmaps)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Previous skills I was able to practice
+JavaScript, which I'd gotten a little rusty in since most of my web work is in TypeScript
+Architectural design and implementation of a Server/Client system using a lot of different tech, which are listed below:
+<img src="https://raw.githubusercontent.com/nel-sam/CarpulWebClient/master/screenshots/readme2.png" width="400px">
