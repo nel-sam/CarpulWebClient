@@ -15,7 +15,7 @@
     "react-loading": "^2.0.3",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "react-toastify": "^5.2.1",
     "yup": "^0.27.0",
     "zipcodes": "^8.0.0"
